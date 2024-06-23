@@ -1,8 +1,10 @@
 var spotifyUrl = "open.spotify.com";
-var addTitleText = "Advertisement";
+//var addTitleText = "Advertisement";
+var addTitleText = "Camouflage";
 
 function checkTabs(tabId, changeInfo, tab) {
-	if(tab.url.includes(spotifyUrl) && tab.audible){
+	console.log("Wat?");
+	if(tab.url.includes(spotifyUrl)){
 		console.log("Inspect Spotify tab change.", tab.title);
 		if(tab.title.includes(addTitleText)){
 			if(!tab.mutedInfo.muted){
