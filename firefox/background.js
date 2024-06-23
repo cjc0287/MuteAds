@@ -1,6 +1,5 @@
 var spotifyUrl = "open.spotify.com";
-//var addTitleText = "Advertisement";
-var addTitleText = "Camouflage";
+var addTitleText = "Advertisement";
 
 function checkTabs(tabId, changeInfo, tab) {
 	console.log("Wat?");
