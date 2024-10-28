@@ -3,15 +3,15 @@
   "name": "Spotify Mute Ads",
   "version": "0.0.1",
   
-  "description": "Extension to mute Google Chrome when spotify web player plays ads",
+  "description": "Extension to mute tab when spotify web player plays ads",
   
   "permissions": ["storage", "tabs"],
 
   "icons": {
-    "16": "../images/silence16.png",
-    "32": "../images/silence32.png",
-    "48": "../images/silence64.png",
-    "128": "../images/silence128.png"
+    "16": "images/mute16.png",
+    "32": "images/mute32.png",
+    "64": "images/mute64.png",
+    "128": "images/mute128.png"
   },
 
   "content_scripts": [
